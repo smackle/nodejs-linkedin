@@ -13,6 +13,7 @@
   })
 
   app.post('/messages', (req, res) =>{
+    console.log(body)
     res.sendStatus(200)
   })
 
